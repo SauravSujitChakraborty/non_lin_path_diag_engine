@@ -18,13 +18,13 @@ A. Feature Scaling (Standardization)
 
 $$ z = \frac{x - \mu}{\sigma} $$
 
-==> $x$ (The Raw Input): This is the actual measurement from the biopsy. For example, if a cell has a Radius of 18.5, then    $$ x = 18.5 $$ Raw x values are difficult for models because they have different units (e.g., Radius is 10–20, but Perimeter is 80–150).
+==> $x$ (The Raw Input): This is the actual measurement from the biopsy. For example, if a cell has a Radius of 18.5, then $x = 18.5$ Raw x values are difficult for models because they have different units (e.g., Radius is 10–20, but Perimeter is 80–150).
 
 ==> $z$ (The Z-Score / Standardized Value): This is the output after scaling. It tells the model how many standard deviations the cell is away from the average.
 
- If $$ z = 2.0 $$, that specific cell's radius is much larger than normal (2 standard deviations above mean).
+ If $z = 2.0$, that specific cell's radius is much larger than normal (2 standard deviations above mean).
 
- If $$ z = -1.0 $$, the radius is smaller than average.
+ If $z = -1.0$, the radius is smaller than average.
 
 B. SVM & Maximum Margin
 
@@ -45,7 +45,7 @@ B. SVM & Maximum Margin
 ​D. Probabilistic Inference (Platt Scaling)
 
 ==> ​Standard SVMs are Hard Classifiers which only tell us in 0 or 1. In medicine, doctors need a Risk Score.
-​We enabled $$ probability=True $$, which uses Platt Scaling.
+​We enabled $probability=True$, which uses Platt Scaling.
 
 ==> ​This fits a Logistic Regression model on top of the SVM's distance scores to produce a Calibrated Probability (e.g., "96.0% Malignancy").
 
