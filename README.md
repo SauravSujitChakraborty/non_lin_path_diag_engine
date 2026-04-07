@@ -18,7 +18,7 @@ A. Feature Scaling (Standardization)
 
 $$ z = \frac{x - \mu}{\sigma} $$
 
-==> $x$ (The Raw Input): This is the actual measurement from the biopsy. For example, if a cell has a Radius of 18.5, then $x = 18.5$ Raw x values are difficult for models because they have different units (e.g., Radius is 10–20, but Perimeter is 80–150).
+==> $x$ (The Raw Input): This is the actual measurement from the biopsy. For example, if a cell has a Radius of 18.5, then $x = 18.5$ Raw $x$ values are difficult for models because they have different units (e.g., Radius is 10–20, but Perimeter is 80–150).
 
 ==> $z$ (The Z-Score / Standardized Value): This is the output after scaling. It tells the model how many standard deviations the cell is away from the average.
 
