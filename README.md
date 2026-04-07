@@ -4,7 +4,7 @@ NOTE : This project was made by me during Aug'25, preserved and finally publishe
 
 STOCHASTIC SIMULATION WITH DETERMINISTIC LOGIC
 
-             CANCER DETECTION
+             GENETIC DISEASE DETECTOR
 
 THEORY :-
 
