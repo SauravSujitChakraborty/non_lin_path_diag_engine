@@ -73,3 +73,4 @@ predict_biopsy(18.5, 25.0, 120.0, 0.12)
 
 # CASE 2: Low-risk measurements
 predict_biopsy(11.2, 15.0, 70.0, 0.08)
+
